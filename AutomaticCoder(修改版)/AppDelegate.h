@@ -7,9 +7,27 @@
 //
 
 #import <Cocoa/Cocoa.h>
+typedef enum
+{
+    kString = 0,
+    kNumber = 1,
+    kArray  = 2,
+    kDictionary = 3,
+    kBool   = 4,
+}JsonValueType;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    
+    NSString *path;
+    
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *jsonTF;
+@property (weak) IBOutlet NSTextField *nameTF;
+@property (weak) IBOutlet NSTextField *preTF;
+
+- (IBAction)createClass:(id)sender;
 
 @end
+

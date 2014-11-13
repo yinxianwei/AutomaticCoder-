@@ -18,6 +18,9 @@
 		D0B1401E1A1479B7009DCE62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B13FFD1A1479B7009DCE62 /* Cocoa.framework */; };
 		D0B140261A1479B7009DCE62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B140241A1479B7009DCE62 /* InfoPlist.strings */; };
 		D0B140281A1479B7009DCE62 /* AutomaticCoder_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B140271A1479B7009DCE62 /* AutomaticCoder_____Tests.m */; };
+		D0B140331A147A5E009DCE62 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0B140311A147A5E009DCE62 /* json.txt */; };
+		D0B140341A147A5E009DCE62 /* json2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0B140321A147A5E009DCE62 /* json2.txt */; };
+		D0B140361A147B23009DCE62 /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0B140351A147B23009DCE62 /* icons.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		D0B140231A1479B7009DCE62 /* AutomaticCoder(修改版)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutomaticCoder(修改版)Tests-Info.plist"; sourceTree = "<group>"; };
 		D0B140251A1479B7009DCE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0B140271A1479B7009DCE62 /* AutomaticCoder_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AutomaticCoder_____Tests.m"; sourceTree = "<group>"; };
+		D0B140311A147A5E009DCE62 /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		D0B140321A147A5E009DCE62 /* json2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json2.txt; sourceTree = "<group>"; };
+		D0B140351A147B23009DCE62 /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 				D0B1400F1A1479B7009DCE62 /* AppDelegate.h */,
 				D0B140101A1479B7009DCE62 /* AppDelegate.m */,
 				D0B140121A1479B7009DCE62 /* MainMenu.xib */,
+				D0B140351A147B23009DCE62 /* icons.icns */,
 				D0B140151A1479B7009DCE62 /* Images.xcassets */,
 				D0B140041A1479B7009DCE62 /* Supporting Files */,
 			);
@@ -127,6 +134,8 @@
 		D0B140041A1479B7009DCE62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0B140311A147A5E009DCE62 /* json.txt */,
+				D0B140321A147A5E009DCE62 /* json2.txt */,
 				D0B140051A1479B7009DCE62 /* AutomaticCoder(修改版)-Info.plist */,
 				D0B140061A1479B7009DCE62 /* InfoPlist.strings */,
 				D0B140091A1479B7009DCE62 /* main.m */,
@@ -233,7 +242,10 @@
 				D0B140081A1479B7009DCE62 /* InfoPlist.strings in Resources */,
 				D0B140161A1479B7009DCE62 /* Images.xcassets in Resources */,
 				D0B1400E1A1479B7009DCE62 /* Credits.rtf in Resources */,
+				D0B140341A147A5E009DCE62 /* json2.txt in Resources */,
 				D0B140141A1479B7009DCE62 /* MainMenu.xib in Resources */,
+				D0B140361A147B23009DCE62 /* icons.icns in Resources */,
+				D0B140331A147A5E009DCE62 /* json.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
