@@ -21,11 +21,11 @@
         [self message:@"没有输入Class名！" defStr:@""];
         return;
     }
-    else if (!self.jsonTF.stringValue.length){
+    else if (!self.jsonTF.string.length){
         [self message:@"Json无数据" defStr:@""];
         return;
     }   
-    NSString *jsonStr = self.jsonTF.stringValue;
+    NSString *jsonStr = self.jsonTF.string;
     //将请求的url数据放到NSData对象中
     NSData *response = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];
     //IOS5自带解析类NSJSONSerialization从response中解析出数据放到字典中
@@ -42,22 +42,29 @@
             
             path = [panel.URL path];
             [self generateClass:self.nameTF.stringValue forDic:dict];
-            [self message:@"已完成,稍后为您恢复JSON数据" defStr:self.jsonTF.stringValue];
         }];
     }
     else{
-        [self message:@"JSON格式不正确！稍后为您恢复JSON数据" defStr:self.jsonTF.stringValue];
+        [self message:@"JSON格式不正确！" defStr:self.jsonTF.string];
     }
 }
 
 - (void)message:(NSString *)str defStr:(NSString *)str2{
-    [self performSelector:@selector(changeJsonTF:) withObject:str2 afterDelay:2];
-
-    self.jsonTF.stringValue = str;
+    NSString *string = [str2 copy];
+    self.jsonTF.string = str;
+    self.jsonTF.textColor = [NSColor redColor];
+    self.jsonTF.font = [NSFont systemFontOfSize:50];
+    self.button.enabled = NO;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.jsonTF.string = string;
+        self.button.enabled = YES;
+        self.jsonTF.textColor = [NSColor blackColor];
+        self.jsonTF.font = [NSFont systemFontOfSize:12];
+    });
 }
 
 - (void)changeJsonTF:(NSString *)str{
-    [self.jsonTF setStringValue:str];
+    self.jsonTF.string = str;
 }
 
 

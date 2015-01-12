@@ -23,9 +23,10 @@ typedef enum
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSTextField *jsonTF;
+@property (unsafe_unretained) IBOutlet NSTextView *jsonTF;
 @property (weak) IBOutlet NSTextField *nameTF;
 @property (weak) IBOutlet NSTextField *preTF;
+@property (weak) IBOutlet NSButton *button;
 
 - (IBAction)createClass:(id)sender;
 

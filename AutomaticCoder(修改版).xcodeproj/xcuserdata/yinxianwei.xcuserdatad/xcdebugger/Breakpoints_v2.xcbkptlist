@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutomaticCoder(&#x4fee;&#x6539;&#x7248;)/AppDelegate.m"
+            timestampString = "442742268.06535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-message:defStr:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutomaticCoder(&#x4fee;&#x6539;&#x7248;)/AppDelegate.m"
+            timestampString = "442742076.008296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-message:defStr:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate message:defStr:]"
+                  moduleName = "AutomaticCoder(&#x4fee;&#x6539;&#x7248;)"
+                  urlString = "file:///Users/yinxianwei/Desktop/%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/Mac%20OS%20X/AutomaticCoder(%E4%BF%AE%E6%94%B9%E7%89%88)/AutomaticCoder(%E4%BF%AE%E6%94%B9%E7%89%88)/AppDelegate.m"
+                  timestampString = "442741994.338796"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[AppDelegate message:defStr:]_block_invoke"
+                  moduleName = "AutomaticCoder(&#x4fee;&#x6539;&#x7248;)"
+                  urlString = "file:///Users/yinxianwei/Desktop/%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/Mac%20OS%20X/AutomaticCoder(%E4%BF%AE%E6%94%B9%E7%89%88)/AutomaticCoder(%E4%BF%AE%E6%94%B9%E7%89%88)/AppDelegate.m"
+                  timestampString = "442741994.339179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
