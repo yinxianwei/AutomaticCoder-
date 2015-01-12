@@ -1,6 +1,8 @@
 AutomaticCoder-
-===============
-
+___
+1. command+w隐藏按钮
+2. 提示优化
+___
 #AutomaticCoder(修改版)
 原作者链接：[https://github.com/zhangxigithub/AutomaticCoder](https://github.com/zhangxigithub/AutomaticCoder)      
 博客地址：[http://zhangxi.me](http://zhangxi.me)    
