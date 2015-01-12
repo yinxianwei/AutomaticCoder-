@@ -24,8 +24,9 @@
     else if (!self.jsonTF.string.length){
         [self message:@"Json无数据" defStr:@""];
         return;
-    }   
-    NSString *jsonStr = self.jsonTF.string;
+    }
+    NSString *jsonStr = [self.jsonTF.string stringByReplacingOccurrencesOfString:@"“" withString:@"\""];
+    jsonStr = [jsonStr stringByReplacingOccurrencesOfString:@"”" withString:@"\""];
     //将请求的url数据放到NSData对象中
     NSData *response = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];
     //IOS5自带解析类NSJSONSerialization从response中解析出数据放到字典中
